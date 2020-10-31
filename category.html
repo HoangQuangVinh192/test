@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>category</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.14.0-web/css/all.css">
+	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="wapper">
+	<div class="go-to-top"> <button id="go-to-top"><i class="fas fa-chevron-up"></i></button></div>
+		<!-- <div id="nav">
+			<ul>
+				<li ><a href="#">DANH MỤC SẢN PHẨM</a></li>
+				<li><a href="#">HƯỚNG DẪN MUA HÀNG</a></li>
+				<li><a href="#">TIN NỔI BẬT</a></li>
+				<li><a href="#">SẢN PHẨM SALE OFF</a></li>
+				<li><a href="#">KHO QUÀ TẶNG</a></li>
+				<li><a href="#">LIÊN HỆ</a></li>
+				<li>
+					<button type="submit"><i class="fas fa-search"></i></button>
+					<button type="submit" id="cart"><i class="fas fa-shopping-cart "></i></button>
+				</li>
+			</ul>
+		</div> -->
+		
+		<header>
+			<span></span>
+			<div class="header-top">
+				<div class="header-top-text">
+					Hotline:<b>0911 445 522</b>
+				</div>
+			</div>
+			<div class="header-main">
+				<div class="logo1">
+					<a href="home.html"><img src="images/logo.jpg"></a>
+				</div>
+				<div class="logo2">
+					<a href="home.html"><img src="images/mua-la-co-qua-ok.jpg"></a>
+				</div>
+				<form>
+					<input type="text" class="form-control" placeholder="tìm kiếm sản phẩm...">
+					<button type="submit"><i class="fas fa-search"></i></button>
+					<button type="submit" id="cart"><i class="fas fa-shopping-cart "></i></button>
+				</form>
+			</div>
+			<nav class="navbar navbar-expand-sm navbar-dark">
+				<ul class="navbar-nav">
+					<li ><a class="nav-link" href="#">DANH MỤC SẢN PHẨM</a></li>
+					<li><a class="nav-link" href="#">HƯỚNG DẪN MUA HÀNG</a></li>
+					<li><a class="nav-link" href="#">TIN NỔI BẬT</a></li>
+					<li><a class="nav-link" href="#">SẢN PHẨM SALE OFF</a></li>
+					<li><a class="nav-link" href="#">KHO QUÀ TẶNG</a></li>
+					<li><a class="nav-link" href="#">LIÊN HỆ</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="bg">
+			<div class="content">
+				<div class="banner">
+					<a href="#"><img src="images/-29.jpg"></a>
+					<div class="menu-top-content">
+						<ul>
+							<li>
+								<div class="icon"><img src="images/ho-tro-247--1.jpg"></div>
+								<div class="menu-top-content-text">
+									<div class="menu-top-content-text1">HỖ TRỢ 24/7</div>
+									<div class="menu-top-content-text2">0911 403 114</div>
+								</div>
+							</li>
+							<li>
+								<div class="icon"><img src="images/thong-tin--1.jpg"></div>
+								<div class="menu-top-content-text">
+									<div class="menu-top-content-text1">THÔNG TIN</div>
+									<div class="menu-top-content-text2">Bảo mật tuyệt đối<div>
+									</div>
+								</li>
+								<li>
+									<div class="icon"><img src="images/qua-tang--1.jpg"></div>
+									<div class="menu-top-content-text">
+										<div class="menu-top-content-text1">QUÀ TẶNG</div>
+										<div class="menu-top-content-text2">Mua là có quà</div>
+									</div>
+								</li>
+								<li>
+									<div class="icon"><img src="images/hoan-tra-tien--1.jpg"></div>
+									<div class="menu-top-content-text">
+										<div class="menu-top-content-text1">HOÀN TRẢ TIỀN</div>
+										<div class="menu-top-content-text2">Trong 7 ngày</div>
+									</div>
+								</li>
+								<li>
+									<div class="icon"><img src="images/thanh-toan--1.jpg"></div>
+									<div class="menu-top-content-text">
+										<div class="menu-top-content-text1">THANH TOÁN</div>
+										<div class="menu-top-content-text2">Khi nhận hàng</div>
+									</div>
+								</li>
+								<li>
+									<div class="icon"><img src="images/giao-hang--1.jpg"></div>
+									<div class="menu-top-content-text">
+										<div class="menu-top-content-text1">GIAO HÀNG</div>
+										<div class="menu-top-content-text2">Tận nơi toàn quốc</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div> 
+				<!-- end banner -->
+				<div class="ctgr-content">
+					<div class="ctgr-content-left col-xl-3">
+						<div class="category">
+							<div class="category-top">DANH MỤC SẢN PHẨM</div>
+							<ul class="drop-menu">
+								<li><a href="javascript:void(0)">Mỹ Phẩm Trang Điểm</a>
+									<ul class="sub-menu">
+										<li><a href="#">Son Môi</a></li>
+										<li><a href="#">Kem Nền</a></li>
+										<li><a href="#">Phấn Nướ</a></li>
+										<li><a href="#">Che Khuyết Điểm</a></li>
+										<li><a href="#">Phấn Tạo Khối, Má hồng</a></li>
+										<li><a href="#">Trang Điểm Mắt & Dưỡng Mắt</a></li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Hỗ Trợ Điều Trị</a>
+									<ul class="sub-menu">
+										<li><a href="#">Hỗ Trợ Điều Trị Mụn</a></li>
+										<li><a href="#">Giảm Cân Tan Mỡ Bụng</a></li>
+										<li><a href="#">Hỗ Trợ Điều Trị Rụng Tóc</a></li>
+										<li><a href="#">Thuốc Mọc Râu, Mọc Tóc</a></li>
+										<li><a href="#">Hỗ Trợ Điều Trị Hôi Nách</a></li>
+										<li><a href="#">Hỗ Trợ Điều Trị Thâm, Nám</a></li>
+										<li><a href="#">Hỗ Trợ Điều Trị Sẹo, Rạn Da</a></li>
+										<li><a href="#">Trị Hôi Miệng Trắng Răng Tại Nhà</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Chăm Sóc Da Mặt</a>
+									<ul class="sub-menu">
+										<li><a href="#">Sữa Rửa Mặt</a></li>
+										<li><a href="#">Nước Tẩy Trang</a></li>
+										<li><a href="#">Dưỡng Trắng Da Mặt</a></li>
+										<li><a href="#">Chống Lão Hóa Da Mặt</a></li>
+										<li><a href="#">Mặt Nạ Dưỡng Da Mặt</a></li>
+										<li><a href="#">Tẩy Tế Bào Chết Cho Da</a></li>
+										<li><a href="#">Nước Hoa Hồng, Xịt Khoáng</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Chăm Sóc Toàn Thân</a>
+									<ul class="sub-menu">
+										<li><a href="#">Kem Tẩy Lông</a></li>
+										<li><a href="#">Kem Chống Nắng</a></li>
+										<li><a href="#">Sữa Tắm Trắng Da</a></li>
+										<li><a href="#">Xịt Thơm, Xịt Khử Mùi</a></li>
+										<li><a href="#">Kem Dưỡng Da Tay</a></li>
+										<li><a href="#">Dưỡng Trắng Da Toàn Thân</a></li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Mỹ Phẩm Chăm Sóc Tóc</a>
+									<ul class="sub-menu">
+										<li><a href="#">Dầu Gội Khô</a></li>
+										<li><a href="#">Xịt Dưỡng Tóc</a></li>
+										<li><a href="#">Dầu Gội Dầu Xả Tóc</a></li>
+										<li><a href="#">Dầu Dừa Dưỡng Tóc</a></li>
+										<li><a href="#"></a>Kem Ủ, Thuốc Nhuộm Tóc</li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Thương Hiệu Ưa Chuộng</a>
+									<ul class="sub-menu">
+										<li><a href="#">Thương Hiệu Pháp</a></li>
+										<li><a href="#">Thương Hiệu Mỹ</a></li>
+										<li><a href="#">Thương Hiệu Nhật Bản</a></li>
+										<li><a href="#">Mỹ Phẩm Hàn Quốc</a></li>
+										<li><a href="#">Thương Hiệu Thái Lan</a></li>
+										<li><a href="#">Thương Hiệu Nga</a></li>
+										<li><a href="#">Thương Hiệu Úc</a></li>
+										<li><a href="#">Mỹ Phẩm Neutrogena</a></li>
+										<li><a href="#">Mỹ Phẩm Innisfree</a></li>
+										<li><a href="#">Mỹ Phẩm Missha</a></li>
+										<li><a href="#">Mỹ phẩm Shewhite</a></li>
+										<li><a href="#">Mỹ Phẩm Pizu</a></li>
+										<li><a href="#">Mỹ phẩm Cocoon</a></li>
+										<li><a href="#">Dầu dừa Coco Secret</a></li>
+										<li><a href="#">Mật ong Queen Bee</a></li>
+										<li><a href="#">Các Thương Hiệu Khác</a></li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Sức Khỏe Dinh Dưỡng</a>
+									<ul class="sub-menu">
+										<li><a href="#">Dầu Dừa Nguyên Chất</a></li>
+										<li><a href="#">Mật Ong Thiên Nhiên</a></li>
+									</ul>
+								</li>
+								<li><a href="javascript:void(0)">Các Sản Phẩm Khác</a>
+									<ul class="sub-menu">
+										<li><a href="#">Phụ Kiện Làm Đẹp</a></li>
+										<li><a href="#">Nước Hoa Chính Hãng</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ctgr-content-right col-xl-9">
+						<div class="ctgr-product">
+							<div class="ctgr-product-top">
+								<a href="#"><i class="fas fa-th"></i>SON MÔI</a>
+							</div>
+							<div class="ctgr-product-main">
+								<div class="body-main-product">
+							<div class="product1">
+								<ul>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="product1">
+								<ul>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+									<li>
+										<div class="product-main">
+											<div class="product-img">
+												<a href="#"><img src="images/Gel-Tan-Mo-Bung-Pizu-Giam-mo-an-toan-tu-dong-y-2579.jpg"></a>
+												<div class="product-addcart">
+													<a href="#"><i class="fas fa-cart-plus"></i>Thêm giỏ hàng</a>
+												</div>
+												<div class="product-xemct">
+													<a href="#">Xem nhanh</a>
+												</div>
+											</div>
+											<div class="product-title">
+												<a href="#"> Kem Tan Mỡ Bụng Pizu - Giảm mỡ an toàn từ đông y</a>
+											</div>
+											<div class="product-price">245.000 đ</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end content -->
+				<div class="fotten">
+					<div class="support">
+						<p>Hỗ trợ khách hàng</p>
+						<ul>
+							<li><a href="#">Hướng dẫn mua hàng</a></li>
+							<li><a href="#">Chính sách đổi trả</a></li>
+							<li><a href="#">Quy định vận chuyển</a></li>
+							<li><a href="#">Phương thức thanh toán</a></li>
+							<li><a href="#">Chính sách bảo mật</a></li>
+						</ul>
+					</div>
+					<div class="fotten2">
+						<p>Website thuộc quyền</p>
+						<div class="f-text">CÔNG TY TNHH HV NET
+							ĐKKD Số: 0313411135
+							Do Sở KH&ĐT Tp. HCM
+							Cấp ngày 24/08/2015
+						</div>
+						<div class="f-img1">
+							<img src="images/DangKyBoCongThuong.jpg">
+						</div>
+					</div>
+					<div class="fotten3">
+						<p>Trung tâm phân phối</p>
+						<div class="f-text">
+							255 Bình Lợi, P.13, Q. Bình Thạnh, Tp. HCM
+							<br>
+							Tel: 0911 403 114 Email: info@imua.com.vn
+						</div>
+						<div class="web">Website:&nbsp;<a href="#">www.imua.com.vn</a></div>
+						<div class="f-img1">
+							<img src="images/1.jpg">
+						</div>
+						<div class="f-link2">
+							<a href="#">
+								<img src="images/logohvnet.jpg">
+								<p>&nbsp;Được Marketing & Phân phối bởi&nbsp;</p>
+								<div class="ff-link"><p>HV Net</p></div>
+							</a>
+						</div>
+					</div>
+					<div class="fotten4">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.797536356342!2d105.77254361479459!3d21.040785585991834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b5534fb3bf%3A0x70d71b071349fa94!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gRGV2cHJvIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1600600025453!5m2!1svi!2s" width="400" height="161" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+				<div class="line-bottom"></div>
+			</div>
+		</div>
+</body>
+</html>
